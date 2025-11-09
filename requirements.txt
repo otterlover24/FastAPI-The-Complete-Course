@@ -1,4 +1,4 @@
-bcrypt==4.0.1
+bcrypt==4.0.0
 cryptography
 fastapi
 psycopg2-binary
@@ -7,7 +7,7 @@ python-jose
 python-multipart
 SQLAlchemy
 uvicorn
-passlib
+passlib[bcrypt]>=1.7.4
 pytest
 httpx
 pytest-asyncio
